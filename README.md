@@ -93,3 +93,7 @@
         led.on()
         time.sleep(0.5)
     ```
+
+8. Connect to board with serial by using adafuit-ampy tool
+    * `$ pip install adafruit-ampy`
+    * 
