@@ -10,20 +10,19 @@
     * Restart Arduino IDE
     * Tools > Board: NodeMCU 1.0 (ESP-12E Module)
     * Tools > Port: /dev/cu.SLAB_USBtoUART
-3. Test hardware with blink program
-    **nodemcu_blink.ino**
+3. Test hardware with blink program: **nodemcu_blink.ino**
     ```arudino
     #define LED 2
     #define DELAY 500
 
     void setup() {
-    pinMode(LED, OUTPUT);  
+        pinMode(LED, OUTPUT);  
     }
 
     void loop() {
-    digitalWrite(LED, HIGH);
-    delay(DELAY);
-    digitalWrite(LED, LOW);
-    delay(DELAY);
+        digitalWrite(LED, HIGH);
+        delay(DELAY);
+        digitalWrite(LED, LOW);
+        delay(DELAY);
     }
     ```
